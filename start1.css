@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #3c2599;
+    color: white;
+    overflow-x: hidden;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background-color: white;
+    color: black;
+    
+}
+li{
+    display: inline-block;
+    margin: 10px 10px;
+    font-weight: 600;
+}
+.plan {
+    border: 1px solid black;
+    padding: 5px;
+}
+li:hover{
+    background-color: black;
+    color: white;
+}
+.main{
+    width: 100%;
+    display: flex;
+}
+.content{
+    margin-top: 5%;
+    margin-left: 8%;
+}
+.content h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 40px;
+}
+.content p{
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+button{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid rgb(253, 247, 247);
+    color: white;
+}
+button:hover{
+    background-color: black;
+}
+.image {
+    margin-top: 4%;
+    margin-left: 10%;
+    width: 30%;
+}
+img{
+    width: 30rem;
+    border-radius: 70%;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin: 8%;
+}
+.individuals{
+   width: 30%;
+    border: 1px solid white;
+    padding: 40px;
+}
+h4{
+    margin-bottom: 15%;
+    text-align: center;
+}
+.Family{
+    width: 30%;
+    border: 1px solid white;
+    padding: 40px;
+}
+.individuals:hover{
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 white;
+}
+.Family:hover{
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 white;
+}
+form {
+   width: 25rem;
+   height: 50rem;
+   display: flex;
+   flex-direction: column;
+   background-color: rgb(115, 91, 234);
+   box-shadow: 0 8px 32px 0 black;
+   border-radius: 15px;
+   margin-left: 40%;
+}
+label{
+    font-size: 20px;
+    margin-left: 10%;
+    text-shadow: 4px 4px 4px black;
+    margin-top: 10%;
+  
+}
+input{
+    width: 80%;
+    margin: 10% auto;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    border-bottom: 1px solid white;
+}
+select{
+    width: 80%;
+   margin: 10% auto;
+   background: transparent;
+   border: none;
+    outline: none;
+    color: black;
+    border-bottom: 1px solid white;
+}
+.buttonss{
+    border: 1px solid white;
+    padding: 10px 20px;
+    width: 50%;
+}
+.buttonss:hover{
+    color: white;
+    background-color: black;
+}
+.box:hover{
+    background-color: transparent;
+}
+.footer{
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+.footer h3{
+    margin-bottom: 4%;
+    font-weight: 600;
+}
+.footer i {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@media screen and (max-width: 1200px) {
+    .content{
+        width: 100%;
+    }
+    .image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 576px) {
+    .content{
+        width: 100%;
+        text-align: center;
+    }
+    .image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 10rem;
+    }
+    img {
+        width: 11rem;
+
+    }
+    .card{
+        width: 90%;
+        text-align: center;
+        margin-top: 15rem;
+        font-size: small;
+    }
+    .form{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+    } 
+    nav li{
+        display: inline-block;
+        margin: 10px 10px;
+        font-weight: 700;
+    }
+    header h1 {
+        font-size: 15px;
+        margin-top: 3%;
+    }
+    
+}
